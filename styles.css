@@ -227,3 +227,89 @@ footer{
     opacity: 0.6;
     color: aliceblue;
 }
+
+@media screen and (min-width:425px) and (max-width:767px){
+
+
+.nav-container,nav ,.nav-menu, .banner,.play-container{
+
+    flex-direction: column;
+}
+.nav-menu{
+
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+}
+.banner-pic{
+    width:100%;
+}
+.games-img{
+
+    flex-direction: column;
+}
+.rect-2{
+
+    position: relative;
+    left:200px;
+}
+
+.named-container, .beautiful, .nice, .footer {
+flex-direction: column;
+
+
+}
+.footer-item{
+    flex-direction: column;
+   text-align: center;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+
+    .nav-container,nav ,.nav-menu, .banner,.play-container{
+    
+        flex-direction: column;
+    }
+    .nav-menu{
+    
+        display: flex;
+        flex-direction: column;
+        gap:13px;
+    }
+    .banner-pic{
+        width:100%;
+    }
+    .games-img{
+    
+        flex-direction: column;
+    }
+    .rect-2{
+    
+        position: relative;
+        left:200px;
+    }
+    
+    .named-container, .beautiful, .nice, .footer {
+    flex-direction: column;
+    
+    
+    }
+    .footer-item{
+        flex-direction: column;
+       text-align: center;
+    }
+    .play-container{
+        text-align: center;
+    }
+    .banner{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .banner-pic{
+        margin-right: 200px;
+        margin-top: 25px;
+    }
+    }
