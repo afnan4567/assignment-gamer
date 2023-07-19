@@ -55,7 +55,175 @@ li{
     padding:10px;
     background-color: aquamarine;
     color: #FFF;
+    color: black;
 }
 .goat{
     color: palevioletred;
+}
+.funny{
+    color: blueviolet;
+}
+.online-games{
+    text-align: center;
+}
+.day{
+    font-size: small;
+    margin-bottom: 40px;
+}
+.games{
+    font-size: 2.5rem;
+}
+.games-img{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+
+.games-img img{
+
+    width:230px;
+    height:230px;
+} 
+.rect-5, .rect-7{
+    margin-right: 20px;
+}
+.rect-5{
+    margin-left:20px;
+}
+.p{
+    font-size: smaller;
+}
+.play-instantly{
+    color: blue;
+}
+.play-container{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 70px;
+}
+.play-photo img{
+    width: 400px;
+    height: 500px;
+}
+
+.play-head{
+    font-size: 2.5rem;
+    margin: 20px;
+}
+.rect-2 img{
+    width:160px;
+    height:240px;
+}
+.rect-2{
+    position: relative;
+    bottom: 165px;
+    right: 80px;
+}
+.beautiful, .nice{
+    display: flex;
+    justify-content: space-evenly;
+    gap:5px;
+}
+.a, .b, .c, .d, .e, .f, .k, .h, .i{
+    display: flex;
+}
+.named-container, .beautiful, .nice{
+    padding:18px;
+    gap:20px;
+
+}
+.a:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.b:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.c:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.d:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.e:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.f:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.k:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.h:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.i:hover{
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: chartreuse;
+
+}
+.named-container{
+    margin-bottom: 30px;
+    background-color: bisque;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:18px;
+}
+footer{
+    background-color: darkblue;
+}
+.footer-item{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    gap:20px;
+    margin: 20px;
+
+}
+.footer-simbol{
+    display: flex;
+    justify-content: center;
+    gap:28px;
+    padding: 30px;
+    font-size: 2.2rem;
+}
+.footer-land{
+    display: flex;
+    justify-content: center;
+    gap:35px;
+    opacity: 0.8;
+    color: aliceblue;
+}
+.cat{
+    text-align: center;
+    opacity: 0.6;
+    color: aliceblue;
 }
